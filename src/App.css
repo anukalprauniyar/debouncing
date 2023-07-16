@@ -1,0 +1,85 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); */
+
+*{
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: 500;
+}
+
+.container{
+  margin:4rem auto;
+  display:flex;
+  flex-direction: column;
+  max-width: 60rem;
+}
+
+table{
+  margin-top: 50px;
+  border: .5rem hidden;
+  overflow: hidden;
+  border-collapse: collapse;
+}
+
+input{
+height: 9vh;
+background-color: #dde7e3;
+border: none;
+font-size:1.25rem;
+padding: 2rem;
+font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+outline: none;
+text-transform:none;
+}
+
+input::placeholder{
+  font-weight: medium;
+  font-size: 1.25rem;
+  letter-spacing: 1px;
+  color: rgb(54, 53, 53);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+th,td{
+  padding: 1rem;
+  line-height: 1.5;
+}
+
+td{
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 500;
+  word-spacing: 5px;
+  letter-spacing: 1px;
+
+}
+
+thead {
+  background-color: #24ce8d;
+}
+
+th{
+  font-size:1.5rem;
+  color: white;
+}
+
+
+tr:nth-child(even){
+  background-color: white;
+}
+
+tbody tr:nth-child(odd){
+  background-color: #dde7e3;
+}
+
+tr{
+  cursor: pointer;
+}
+
+tbody tr:hover{
+  background-color: #24ce8d;
+  color: white;
+}
+
+
